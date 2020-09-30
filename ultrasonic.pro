@@ -26,8 +26,10 @@ DEFINES += QT_DEPRECATED_WARNINGS
 
 
 SOURCES += main.cpp\
-        widget.cpp
+        widget.cpp \
+    ultrasonic.cpp
 
-HEADERS  += widget.h
+HEADERS  += widget.h \
+    ultrasonic.h
 
 FORMS    += widget.ui
